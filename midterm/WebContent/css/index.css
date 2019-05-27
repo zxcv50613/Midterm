@@ -1,0 +1,80 @@
+* {
+	margin: 0%;
+	padding: 0%;
+}
+
+body {
+	font-family: 微軟正黑體;
+}
+.picture{
+	width: 200 px ;
+	float: left ;
+	border:1px black solid ;
+}
+
+.allpage {
+	width: 1024px;
+	margin: auto;
+	background-color: #ffbb77;
+}
+
+.menu {
+	background-color: aquamarine;
+	list-style-type: none;
+	overflow: auto;
+	border-bottom: 3px solid purple;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+footer {
+	background-color: aquamarine;
+	list-style-type: none;
+	text-align: center;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	line-height: 2.5em;
+	color: purple;
+	clear: both;
+}
+
+.title {
+	background-color: rgb(184, 149, 216);
+	color: aliceblue;
+	padding-left: 20px;
+	line-height: 2.5em;
+}
+
+.content {
+	overflow: auto;
+	width: 600px;
+	margin:auto ;
+	/* border: 1px solid gray; */
+}
+
+fieldset {
+	width: 400px;
+	border: 2px solid red;
+	border-radius: 50px;
+	margin-bottom: 20px;
+	margin: auto;
+}
+
+.str1 {
+	width: 300px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid rgb(177, 165, 165);
+	margin: 10px;
+	font-size: 25 px;
+}
+
+.str2 {
+	padding-top: 5px;
+	color: gray;
+	font-size: 60%;
+}
+
+form {
+	width: 500px;
+	margin: auto;
+}
